@@ -1,0 +1,18 @@
+{
+  "id": "org.prosperlgtv.app",
+  "version": "1.0.0",
+  "vendor": "Prosper LG TV",
+  "type": "web",
+  "main": "index.html",
+  "title": "Prosper LG TV",
+  "icon": "icons/icon.png",
+  "largeIcon": "icons/largeIcon.png",
+  "splashBackground": "icons/splash.png",
+  "bgColor": "#0e1013",
+  "iconColor": "#0e1013",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "handlesRelaunch": false,
+  "uiRevision": 2,
+  "requiredACG": []
+}

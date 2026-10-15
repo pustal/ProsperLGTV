@@ -1,0 +1,10 @@
+{
+  "id": "org.prosperlgtv.app.service",
+  "description": "Prosper LG TV network helper",
+  "services": [
+    {
+      "name": "org.prosperlgtv.app.service",
+      "description": "Downloads playlists from servers without CORS headers and diagnoses failed streams."
+    }
+  ]
+}

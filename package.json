@@ -1,0 +1,35 @@
+{
+  "name": "prosperlgtv",
+  "version": "1.0.0",
+  "description": "An IPTV player for LG webOS TVs that plays your own M3U playlists, made for the remote and careful with the TV's storage. A webOS adaptation of ProsperoTV.",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "preinstall": "node scripts/check-node.cjs",
+    "prebuild": "node scripts/check-node.cjs",
+    "build": "node build.mjs",
+    "build:dev": "node build.mjs --dev",
+    "watch": "node build.mjs --dev --watch",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/m3u.test.mjs",
+    "countries": "node scripts/make-countries.mjs",
+    "icons": "python3 scripts/make-icons.py",
+    "package": "npm run build && ares-package dist services/helper -o out && node scripts/manifest.mjs",
+    "manifest": "node scripts/manifest.mjs",
+    "tv:install": "node scripts/tv.mjs install",
+    "tv:launch": "node scripts/tv.mjs launch",
+    "tv:inspect": "node scripts/tv.mjs inspect",
+    "tv:deploy": "npm run package && npm run tv:install && npm run tv:launch"
+  },
+  "devDependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@webos-tools/cli": "^3.2.6",
+    "esbuild": "0.24.2",
+    "qrcode-generator": "^2.0.4"
+  }
+}

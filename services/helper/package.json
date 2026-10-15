@@ -1,0 +1,8 @@
+{
+  "name": "org.prosperlgtv.app.service",
+  "version": "1.0.0",
+  "description": "Downloads playlists from servers without CORS headers and diagnoses failed streams for Prosper LG TV.",
+  "main": "service.js",
+  "private": true,
+  "license": "GPL-3.0-or-later"
+}
