@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/icons/largeIcon.png" width="128" alt="Prosper LG TV icon: a television with a play mark"></p>
+
 # Prosper LG TV
 
 An IPTV player for LG webOS TVs. It plays the M3U playlists you add, is built for the remote, and is careful with the TV's small storage.
@@ -9,6 +11,16 @@ If you enjoy it, please consider [buying me a Ko-fi](https://ko-fi.com/pustal).
 
 > [!NOTE]
 > **Prosper LG TV is a player only.** It doesn't host, provide or re-stream any channels, and it comes with no playlist: you add the M3U playlists you want to watch. Only add playlists you are entitled to watch, for example one from your TV or internet provider. See [Content and legal notes](#content-and-legal-notes).
+
+## Screenshots
+
+| Live TV | Filters |
+| :---: | :---: |
+| <img src="docs/screenshots/live-tv.png" alt="Live TV"> | <img src="docs/screenshots/filters.png" alt="Filters"> |
+| **Player, with the menu and statistics** | **Settings and storage** |
+| <img src="docs/screenshots/player-menu.png" alt="Player, with the menu and statistics"> | <img src="docs/screenshots/settings.png" alt="Settings and storage"> |
+
+<sub>Shown with a demo playlist of fictional channels; Prosper LG TV comes with no channels.</sub>
 
 ## Features
 
